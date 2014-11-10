@@ -93,7 +93,7 @@ class RootTableViewController: UITableViewController {
         var btn : UIButton = UIButton(frame: CGRectMake(0, 0, self.view.frame.width, 40))
         btn.setTitle(arData?.objectAtIndex(section) as? String, forState: UIControlState.Normal)
         btn.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
-        btn.backgroundColor = UIColor.clearColor()
+        btn.backgroundColor = UIColor.whiteColor()
         btn.layer.borderColor = UIColor.orangeColor().CGColor
         btn.layer.borderWidth = 1
         btn.tag = section
